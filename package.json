@@ -15,7 +15,7 @@
     "md5": "^2.0.0",
     "mkdirp": "^0.5.1",
     "ndjson": "^1.4.2",
-    "ndjson-to-elasticsearch": "^1.0.0",
+    "ndjson-to-elasticsearch": "git+https://github.com/inventaire/ndjson-to-elasticsearch.git#19e1ba7",
     "rc": "^1.1.2",
     "recover-couch-doc": "^1.0.0",
     "request": "^2.69.0",
