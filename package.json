@@ -5,25 +5,21 @@
   "main": "./lib/index.js",
   "bin": "./bin/cli.js",
   "dependencies": {
-    "async": "^1.5.2",
+    "async": "^3.2.0",
     "bunyan": "^1.5.1",
-    "follow": "^0.12.1",
+    "follow": "^1.1.0",
     "hyperquest": "^2.1.3",
     "jsonfilter": "^1.1.2",
     "jsonist": "^3.0.1",
     "lodash": "^4.2.0",
     "md5": "^2.0.0",
-    "mkdirp": "^0.5.1",
     "ndjson": "^1.4.2",
-    "ndjson-to-elasticsearch": "git+https://github.com/inventaire/ndjson-to-elasticsearch.git#19e1ba7",
     "rc": "^1.1.2",
-    "recover-couch-doc": "^1.0.0",
-    "request": "^2.69.0",
     "selectn": "^1.0.5",
-    "through2": "^2.0.0"
+    "through2": "^3.0.1"
   },
   "devDependencies": {
-    "standard": "^4.5.4"
+    "standard": "^14.3.4"
   },
   "scripts": {
     "test": "standard"
@@ -35,5 +31,6 @@
   "bugs": {
     "url": "http://github.com/ryanramage/couch2elastic4sync/issues"
   },
-  "homepage": "http://github.com/ryanramage/couch2elastic4sync"
+  "homepage": "http://github.com/ryanramage/couch2elastic4sync",
+  "license": "MIT"
 }
