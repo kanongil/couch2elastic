@@ -1,6 +1,6 @@
 {
-  "name": "couch2elastic4sync",
-  "version": "7.1.0",
+  "name": "couch2elastic",
+  "version": "0.0.0",
   "description": "Sync couchdb data to elasticsearch.",
   "main": "./lib/index.js",
   "bin": "./bin/cli.js",
@@ -26,11 +26,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/ryanramage/couch2elastic4sync.git"
+    "url": "http://github.com/kanongil/couch2elastic.git"
   },
   "bugs": {
-    "url": "http://github.com/ryanramage/couch2elastic4sync/issues"
+    "url": "http://github.com/kanongil/couch2elastic/issues"
   },
-  "homepage": "http://github.com/ryanramage/couch2elastic4sync",
+  "homepage": "http://github.com/kanongil/couch2elastic",
   "license": "MIT"
 }

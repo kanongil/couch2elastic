@@ -6,7 +6,7 @@ var jsonist = require('jsonist')
 var selectn = require('selectn')
 const { mkdirSync } = require('fs')
 
-var config = require('rc')('couch2elastic4sync', {
+var config = require('rc')('couch2elastic', {
   endOnCatchup: false,
   load: {
     swallowErrors: false
@@ -77,7 +77,7 @@ function getLogPath (config) {
 
 function getLogFile (config) {
   var bOpts = {
-    name: 'couch2elastic4sync',
+    name: 'couch2elastic',
     stream: process.stdout
   }
   if (config.bunyan_log_stderr) {
